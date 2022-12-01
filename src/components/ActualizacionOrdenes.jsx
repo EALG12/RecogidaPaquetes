@@ -26,8 +26,8 @@ export function ActualizarOrdenes (){
                 </Row>
                 <Row> 
                     <Col xs={4}>
-                      <label htmlFor="usuario">Largo:</label>
-                      <input name="usuario" type="text" placeholder="Usuario" required id="usuario"/>
+                      <label htmlFor="largo">Largo:</label>
+                      <input name="largo" type="text" placeholder="Largo" required id="largo"/>
                     </Col>
                     <Col xs={4}>
                       <label htmlFor="ancho">Ancho:</label>
@@ -74,7 +74,7 @@ export function ActualizarOrdenes (){
                       <input name="ciudadEntrega" type="text" placeholder="Ciudad entrega" required id="ciudadEntrega"/>
                       </Col>
                 </Row>
-                      <button type="submit">Registrar Órden</button>
+                      <button type="submit">Actualizar Órden</button>
                 
               </form>
       
